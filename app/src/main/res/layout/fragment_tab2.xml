@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="312dp"
+        android:layout_height="272dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="31dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="326dp"
+            android:layout_height="240dp"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="15dp">
+
+            <Button
+                android:id="@+id/contribute"
+                android:layout_width="143dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="125dp"
+                android:layout_marginTop="172dp"
+                android:layout_marginEnd="125dp"
+                android:backgroundTint="@color/liblue"
+                android:text="Contribute"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.672"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/Totalsavings"
+                style="@style/BlackishEditTextStyle"
+                android:layout_width="269dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="56dp"
+                android:layout_marginEnd="41dp"
+                android:background="@drawable/border"
+                android:ems="10"
+                android:focusable="false"
+                android:gravity="center|left"
+                android:inputType="none"
+                android:paddingLeft="20dp"
+                android:text="Total Savings"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.88"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:maxLines="1"
+                android:ellipsize="end"/>
+
+            <EditText
+                android:id="@+id/amount"
+                style="@style/BlackishEditTextStyle"
+                android:layout_width="271dp"
+                android:layout_height="35dp"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="112dp"
+                android:layout_marginEnd="41dp"
+                android:background="@drawable/border"
+                android:ems="10"
+                android:hint="Amount"
+                android:inputType="number"
+                android:paddingLeft="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.925"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <!-- Place your views inside the ConstraintLayout -->
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar6"
+        android:layout_width="521dp"
+        android:layout_height="101dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="222dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="95dp"
+        android:text="Savings Contribution"
+        android:textColor="#FEFAFD"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

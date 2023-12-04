@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bramm"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:layout_marginTop="0dp"
+    android:orientation="vertical"
+    android:padding="-10dp"
+    tools:layout_editor_absoluteX="-28dp"
+    tools:layout_editor_absoluteY="-31dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="0dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true"
+        tools:layout_editor_absoluteX="-12dp"
+        tools:layout_editor_absoluteY="-15dp">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/zzz"
+            android:layout_width="426dp"
+            android:layout_height="162dp"
+            tools:layout_editor_absoluteX="-1dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="320dp"
+                android:layout_height="3dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginEnd="45dp"
+                android:alpha="0.9"
+                android:background="#423D3D"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/LoanRefNo"
+                android:layout_width="209dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="52dp"
+                android:layout_marginEnd="204dp"
+                android:text="LoanRefNo"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.02"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/Year"
+                android:layout_width="128dp"
+                android:layout_height="18dp"
+                android:layout_marginStart="228dp"
+                android:layout_marginTop="52dp"
+                android:layout_marginEnd="67dp"
+                android:text="Status"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.388"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/paidon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="94dp"
+                android:layout_marginEnd="251dp"
+                android:text="Approved Amount"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/Amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="202dp"
+                android:layout_marginTop="92dp"
+                android:layout_marginEnd="66dp"
+                android:text="Applied Amount"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/appliedon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="242dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="103dp"
+                android:text="Date Applied"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/transactioncode"
+                android:layout_width="52dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="341dp"
+                android:gravity="bottom"
+                android:text="ID"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/Documentno"
+                android:layout_width="181dp"
+                android:layout_height="16dp"
+                android:layout_marginStart="66dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="179dp"
+                android:text="Loan Product"
+                android:textColor="#EA1010"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/loanr"
+                android:layout_width="176dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="101dp"
+                android:layout_marginTop="112dp"
+                android:layout_marginEnd="133dp"
+                android:backgroundTint="#0091DB"
+                android:text="View Repayments"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.64"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

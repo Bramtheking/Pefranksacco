@@ -1,0 +1,11 @@
+<resources>
+    <string-array name="dropdown_options">
+        <item>Select an option</item>
+        <item>1:Development Loans</item>
+        <item>2:Emergency Loans</item>
+        <item>3:Product Loans</item>
+        <item>4:Advance Loan</item>
+    </string-array>
+
+
+</resources>

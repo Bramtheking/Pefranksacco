@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="lightblue">#0092DC</color>
+    <color name="liblue">#0092DC</color>
+    <color name="ksh_color">#FD7E0E</color>
+</resources>

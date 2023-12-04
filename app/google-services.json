@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "821842989688",
+    "project_id": "pefranksacco",
+    "storage_bucket": "pefranksacco.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821842989688:android:c1a6a976431d8a3b5dd38d",
+        "android_client_info": {
+          "package_name": "com.example.pefranksacco"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD12MZiP3V4dXJRi2PcvPyCHLD38JTf52w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

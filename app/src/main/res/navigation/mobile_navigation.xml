@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation3"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.pefranksacco.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_savings"
+        android:name="com.example.pefranksacco.ui.gallery.GalleryFragment"
+        android:label="@string/savings"
+        tools:layout="@layout/fragment_gallery" />
+
+
+    <fragment
+        android:id="@+id/info"
+        android:name="com.example.pefranksacco.ui.info.infoFragment"
+        android:label="@string/info"
+        tools:layout="@layout/fragment_info" />
+
+    <fragment
+        android:id="@+id/nav_loan"
+        android:name="com.example.pefranksacco.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_loans"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/Reports"
+        android:name="com.example.pefranksacco.ui.reports.reportsFragment"
+        android:label="@string/menu_Reports"
+        tools:layout="@layout/fragment_reports" />
+    <fragment
+        android:id="@+id/nav_Settings"
+        android:name="com.example.pefranksacco.ui.reports.reportsFragment"
+        android:label="@string/menu_Reports"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/loan_repayment"
+        android:name="com.example.pefranksacco.ui.reports.reportsFragment"
+        tools:layout="@layout/fragment_loan_repayment" />
+
+</navigation>

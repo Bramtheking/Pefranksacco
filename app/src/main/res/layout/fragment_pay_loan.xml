@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="135dp"
+        android:layout_height="82dp"
+        android:layout_gravity="center"
+
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="138dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="328dp"
+        android:layout_height="336dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="10dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="297dp"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="15dp">
+
+            <TextView
+                android:id="@+id/appliedon"
+                style="@style/BlackishEditTextStyle"
+                android:layout_width="297dp"
+                android:layout_height="37dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="108dp"
+                android:layout_marginEnd="44dp"
+                android:background="@drawable/border"
+                android:contextClickable="true"
+                android:ems="10"
+                android:gravity="center|left"
+                android:hint="Applied On"
+                android:inputType="datetime|date"
+                android:paddingLeft="20dp"
+                android:text="Repayment Date"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.561"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/amount"
+                style="@style/BlackishEditTextStyle"
+                android:layout_width="291dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="164dp"
+                android:layout_marginEnd="41dp"
+                android:background="@drawable/border"
+                android:ems="10"
+                android:hint="Amount"
+                android:inputType="number"
+                android:paddingLeft="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/contribute"
+                android:layout_width="143dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="125dp"
+                android:layout_marginTop="228dp"
+                android:layout_marginEnd="125dp"
+                android:backgroundTint="@color/liblue"
+                android:text="Pay Loan"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.587"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/Totalsavings"
+                style="@style/BlackishEditTextStyle"
+                android:layout_width="291dp"
+                android:layout_height="37dp"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="56dp"
+                android:layout_marginEnd="41dp"
+                android:background="@drawable/border"
+                android:ems="10"
+                android:focusable="false"
+                android:gravity="center|left"
+                android:hint="Interest"
+                android:inputType="none"
+                android:paddingLeft="20dp"
+                android:text="Total Loan Due"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:maxLines="1"
+                android:ellipsize="end"/>
+
+            <!-- Place your views inside the ConstraintLayout -->
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar6"
+        android:layout_width="521dp"
+        android:layout_height="101dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="184dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="95dp"
+        android:text="Loan Repayment"
+        android:textColor="#FEFAFD"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
